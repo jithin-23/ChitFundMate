@@ -301,7 +301,7 @@ class _CreateChitPageState extends State<CreateChitPage> {
                                 numWeek.isEmpty ||
                                 commission.isEmpty) {
                               ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(content: Text("Enter all details")));
+                                  SnackBar(content: Text("Enter all detail")));
                             } else if (int.parse(commission) >= 100) {
                               ScaffoldMessenger.of(context).showSnackBar(
                                   SnackBar(
